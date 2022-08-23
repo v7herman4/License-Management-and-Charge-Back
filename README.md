@@ -18,7 +18,7 @@ For installation and use of the solution, one of the following license types is 
 
 Note-
 
-Power Platform Per App license do not suffice as the solution is composed of two apps.
+Power Platform Per App licenses do not suffice as the solution is composed of two apps.
 
 Seeded-use rights with Office 365 E3, E5 do not suffice as the solution requires the use of Dataverse which is a premium license offering.
 
