@@ -105,7 +105,7 @@ To view charges or licenses by department, start the "License Administration" Mo
 
 ![](images/ShowChart.png)
 
-1. Select the appropriate system chart from the chart selector.
+3. Select the appropriate system chart from the chart selector.
 
 To report on charges or licenses by department, start the "License Administration" Model-driven application.
 
