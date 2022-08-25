@@ -1,5 +1,3 @@
-# ReadMe.md
-
 ## Overview
 
 Power Platform administrators and IT license manages overall within large organizations look for ways to efficiently manage licenses. This includes assigning, un-assigning and tracking license usage across multiple departments and various product licenses. This solution is built on top of the Power Platform and integrated with Azure Active Directory, Office 365 and Dataverse.
