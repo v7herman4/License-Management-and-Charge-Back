@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.23101.250" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>GitHubTest</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="GitHub Test" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>VEH</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="VEH" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>veh</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>94857</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="veh_datagovernancelogs" behavior="2" />
+      <RootComponent type="80" schemaName="veh_DataGovernance" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="admin_app" displayName="PowerApps App" solution="CenterofExcellenceCoreComponents (4.15)" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="admin_connectionreference" displayName="CoE Connection Reference" solution="CenterofExcellenceCoreComponents (4.15)" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="admin_environment" displayName="Environment" solution="CenterofExcellenceCoreComponents (4.15)" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="admin_flow" displayName="Flow" solution="CenterofExcellenceCoreComponents (4.15)" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="veh_datagovernancelogs" displayName="CoE Data Governance Logs" solution="Active" />
+        <Dependent type="1" schemaName="veh_datagovernancelogs" displayName="CoE Data Governance Logs" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="veh_onpremisesdatagateway" displayName="On-premises Data Gateway" solution="Active" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Data Governance Logs" displayName="Active Data Governance Logs" parentSchemaName="veh_datagovernancelogs" parentDisplayName="CoE Data Governance Logs" solution="Active" id="{cbcd226a-0e4e-4484-9765-9b03f62e1bcc}" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Apps Shared Out With Data Gateways Connections" displayName="Apps Shared Out With Data Gateways Connections" parentSchemaName="admin_app" parentDisplayName="PowerApps App" solution="Active" id="{d0d1e59f-a05d-ee11-be6e-001dd801d097}" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Connection References with Data Gateways" displayName="Connection References with Data Gateways" parentSchemaName="admin_connectionreference" parentDisplayName="CoE Connection Reference" solution="Active" id="{fe936a43-1653-ee11-be6e-001dd80b63ee}" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Data Governance Logs Advanced Find View" displayName="Data Governance Logs Advanced Find View" parentSchemaName="veh_datagovernancelogs" parentDisplayName="CoE Data Governance Logs" solution="Active" id="{ebfb7e53-3aa0-4c3c-9938-4d63aefd911d}" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Data Governance Logs Associated View" displayName="Data Governance Logs Associated View" parentSchemaName="veh_datagovernancelogs" parentDisplayName="CoE Data Governance Logs" solution="Active" id="{5451b1a8-01e8-46ab-9094-d155e30922f9}" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Data Governance Logs Lookup View" displayName="Data Governance Logs Lookup View" parentSchemaName="veh_datagovernancelogs" parentDisplayName="CoE Data Governance Logs" solution="Active" id="{32d335cd-1805-4eba-bc54-2c066bf460c2}" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Environments Excuse Flags" displayName="Environments Excuse Flags" parentSchemaName="admin_environment" parentDisplayName="Environment" solution="Active" id="{c7cf2bc6-2e62-ee11-be6e-001dd80897b9}" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Flows with Data Gateway Connections" displayName="Flows with Data Gateway Connections" parentSchemaName="admin_flow" parentDisplayName="Flow" solution="Active" id="{9d7af412-a45d-ee11-be6e-001dd801d097}" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Quick Find Active Data Governance Logs" displayName="Quick Find Active Data Governance Logs" parentSchemaName="veh_datagovernancelogs" parentDisplayName="CoE Data Governance Logs" solution="Active" id="{c7bd8771-ef67-42d0-813f-984a4a00cccd}" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="CoE Connection Reference" solution="CenterofExcellenceCoreComponents (4.15)" id="{616cd6ff-f809-4ec5-ae47-9d1ccb4262b6}" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="App with Data Gateway" parentDisplayName="PowerApps App" solution="Active" id="{716c5bcc-a15d-ee11-be6e-001dd801d097}" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Flow with Data Gateway" parentDisplayName="Flow" solution="Active" id="{9f3be96b-a25d-ee11-be6e-001dd80135b4}" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Data Governance" parentDisplayName="CoE Connection Reference" solution="Active" id="{cac7cea2-1653-ee11-be6e-001dd80ab50e}" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="62" schemaName="veh_DataGovernance" solution="Active" />
+        <Dependent type="80" schemaName="veh_DataGovernance" displayName="Data Governance App" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

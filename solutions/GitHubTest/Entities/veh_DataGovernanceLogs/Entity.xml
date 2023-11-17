@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name LocalizedName="CoE Data Governance Logs" OriginalName="Data Governance Logs">veh_DataGovernanceLogs</Name>
+  <EntityInfo>
+    <entity Name="veh_DataGovernanceLogs" unmodified="1">
+      <attributes />
+    </entity>
+  </EntityInfo>
+  <RibbonDiffXml />
+</Entity>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>veh_DataGovernance</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="admin_app" />
+    <AppModuleComponent type="1" schemaName="admin_connectionreference" />
+    <AppModuleComponent type="1" schemaName="admin_environment" />
+    <AppModuleComponent type="1" schemaName="admin_flow" />
+    <AppModuleComponent type="1" schemaName="veh_datagovernancelogs" />
+    <AppModuleComponent type="1" schemaName="veh_onpremisesdatagateway" />
+    <AppModuleComponent type="26" id="{fe936a43-1653-ee11-be6e-001dd80b63ee}" />
+    <AppModuleComponent type="26" id="{d0d1e59f-a05d-ee11-be6e-001dd801d097}" />
+    <AppModuleComponent type="26" id="{9d7af412-a45d-ee11-be6e-001dd801d097}" />
+    <AppModuleComponent type="26" id="{cbcd226a-0e4e-4484-9765-9b03f62e1bcc}" />
+    <AppModuleComponent type="26" id="{ebfb7e53-3aa0-4c3c-9938-4d63aefd911d}" />
+    <AppModuleComponent type="26" id="{5451b1a8-01e8-46ab-9094-d155e30922f9}" />
+    <AppModuleComponent type="26" id="{c7bd8771-ef67-42d0-813f-984a4a00cccd}" />
+    <AppModuleComponent type="26" id="{32d335cd-1805-4eba-bc54-2c066bf460c2}" />
+    <AppModuleComponent type="26" id="{c7cf2bc6-2e62-ee11-be6e-001dd80897b9}" />
+    <AppModuleComponent type="60" id="{cac7cea2-1653-ee11-be6e-001dd80ab50e}" />
+    <AppModuleComponent type="60" id="{616cd6ff-f809-4ec5-ae47-9d1ccb4262b6}" />
+    <AppModuleComponent type="60" id="{716c5bcc-a15d-ee11-be6e-001dd801d097}" />
+    <AppModuleComponent type="60" id="{9f3be96b-a25d-ee11-be6e-001dd80135b4}" />
+    <AppModuleComponent type="62" schemaName="veh_DataGovernance" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Data Governance App" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Data Governance App for COE Toolkit" languagecode="1033" />
+  </Descriptions>
+</AppModule>
